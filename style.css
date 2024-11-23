@@ -1,0 +1,37 @@
+.maindiv{
+    height: 600px;
+    width: 100%;
+    background-image: url("./bg.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.btns{
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.btn{
+    background-color: blue;
+    border-radius: 10px;
+    border: 1px solid black;
+    color: white;
+    padding: 10px 15px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.amon-gif{
+    position: absolute;
+    bottom: 0px;
+    left: 15px;
+    height: 150px;
+}
+.amon-gif2{
+    position: absolute;
+    bottom: 0px;
+    right: 15px;
+    height: 150px;
+}
+.amon-fight{
+    height: 175px !important;
+}
